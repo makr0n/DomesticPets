@@ -1,4 +1,4 @@
-public class Pet {
+public abstract class Pet {
     private String name;
     private int age;
     private String breed;
@@ -42,6 +42,7 @@ public class Pet {
     }
 
     public void hungryVoice() {
+        System.out.println("Pet hungry voice");
     }
 
     public void setHealthy(boolean healthy) {
@@ -52,8 +53,8 @@ public class Pet {
         this.feedType = feedType;
     }
 
-
     public void happyVoice() {
+        System.out.println("Pet happy voice");
     }
 
 }

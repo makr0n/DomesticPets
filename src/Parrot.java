@@ -9,6 +9,6 @@ public class Parrot extends Pet{
     }
 
     public void happyVoice(){
-        System.out.println("Thank you");//говорящий попугай :)
+        System.out.println("Thank you"); //говорящий попугай :)
     }
 }
